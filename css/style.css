@@ -1,0 +1,484 @@
+@charset "utf-8";
+
+.inner{
+  width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+header{
+  height: 90px;
+  background-color: #fff
+}
+header h1{
+  padding-top: 30px;
+}
+
+header h1 a{
+  display: block;
+  width: 217px; height: 29px;
+  background: url(../img/logo.gif) no-repeat;
+  font-size: 0; color: transparent;
+}
+nav{
+  position: absolute; top: 32px; left: 258px;
+}
+nav li{float: left;}
+nav li a{
+  padding: 33px 45px;
+  font-size: 18px;
+  color: #555;
+  transition: all 0.3s;
+}
+nav li a:hover{
+  background-color: #040034;
+  color: #fff;
+}
+header select {
+  position: absolute; top: 30px; right: 0;
+  border: 1px solid #040034;
+  padding: 5px 28px 5px 15px;
+  outline: none;
+}
+
+.visual1{
+  width: 100%;
+  height: 791px;
+  background: url(../img/visual_main.png) no-repeat center;
+}
+.visual1 .inner{
+  text-align: center;
+  padding-top: 170px;
+  position: relative;
+
+}
+.visual1 .tit{
+  color: #fff;
+}
+.visual1 .tit h2{
+  font-size: 60px;
+  margin-bottom: 7px;
+}
+.visual1 .tit p{font-size: 24px;}
+.visual1 .left{
+  position: absolute; top: 350px; left: 10px;
+  display: block;
+  width: 75px; height: 75px;
+  background: url(../img/icon_left.png) no-repeat;
+  font-size: 0; color: transparent;
+}
+.visual1 .right{
+  position: absolute; top:350px; right: 10px;
+  display: block;
+  width: 75px; height: 75px;
+  background: url(../img/icon_right.png) no-repeat;
+  font-size: 0; color: transparent;
+}
+.paging{
+  position: absolute;
+  top: 756px; right: 535px; 
+}
+.paging li{
+  float: left;
+  padding-right: 14px;
+}
+.paging li:last-child{
+  padding-right: 0;
+}
+.paging li a{
+  display: block;
+  width: 17px; height: 17px;
+  border-radius: 50%;
+  background-color: #040034;
+  text-indent: -99999px;
+}
+.paging li.on a{
+  background-color: #3ecece;
+}
+
+.manual{
+  height: 913px;
+  padding: 70px 0 80px;
+  background-color: #040034;
+  
+}
+.manual h3{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+.manual .inner > p{
+  font-size: 25px;
+  color: #3ecece;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.manual .list li{
+  width: calc((100% - 120px) / 4);
+  background-color: #fff;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  position: relative;
+  transition: all 0.5s;
+}
+/* li a 어디에 크기를 주느냐에 따라 호버 깜빡이는 영역 달라짐 */
+
+.manual .list li a{
+  display: block;
+  height: 235px;
+  padding: 30px;
+}
+.manual .list li a::before{
+  content: ''; display: block; 
+  width: 58px; height: 3px;
+  background-color: #3ecece;
+  position: absolute; top: 210px; left: 100px; 
+
+}
+.manual .list li:nth-child(1) a{
+  background: url(../img/main_icon01.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(2) a{
+  background: url(../img/main_icon02.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(3) a{
+  background: url(../img/main_icon03.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(4) a{
+  background: url(../img/main_icon04.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(5) a{
+  background: url(../img/main_icon05.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(6) a{
+  background: url(../img/main_icon06.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(7) a{
+  background: url(../img/main_icon07.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(8) a{
+  background: url(../img/main_icon08.png) no-repeat center 60px;
+}
+
+.manual .list li:hover {
+  background-color: #3ecece;
+}
+.manual .list li:hover a{
+  color: #fff;
+}
+.manual .list li:hover a::before{
+  background-color: #fff;
+}
+
+.manual .list li:nth-child(1) a:hover{
+  background: url(../img/main_icon01w.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(2) a:hover{
+  background: url(../img/main_icon02w.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(3) a:hover{
+  background: url(../img/main_icon03w.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(4) a:hover{
+  background: url(../img/main_icon04w.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(5) a:hover{
+  background: url(../img/main_icon05w.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(6) a:hover{
+  background: url(../img/main_icon06w.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(7) a:hover{
+  background: url(../img/main_icon07w.png) no-repeat center 60px;
+}
+.manual .list li:nth-child(8) a:hover{
+  background: url(../img/main_icon08w.png) no-repeat center 60px;
+}
+
+
+.manual .list{height: 630px;}
+.manual .list li:nth-child(4n){
+  margin-right: 0;
+}
+.manual .list ::after{
+  content: ''; display: block; clear: both;
+}
+.manual .list li .tit1{
+  font-size: 18px;
+}
+.manual .list li .txt1{
+  font-size: 22px;
+  position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%);
+}
+.manual .list li:nth-child(6) .txt1{
+ width: 150px;
+}
+.manual .more{
+  margin: 80px auto 0 auto;
+  background: url(../img/more_round.png) no-repeat center center;
+  display: block;
+  width: 72px; height: 72px;
+  text-indent: -9999px;
+}
+
+.content{
+  height: 380px;
+  background: url(../img/visual_main02.png) no-repeat center;
+}
+.content .inner{
+  position: relative;
+  height: 380px;
+  color: #fff;
+}
+.content .inner .search{
+  position: absolute; top:133px; left: 258px;
+}
+.content .radio{
+  font-size: 24px;
+  padding-left: 250px;
+  margin-bottom: 24px;
+}
+.content .radio label{
+  margin-right: 100px;
+}
+.content .radio input{
+  width: 30px; /* 너비 설정 */
+  height: 30px;
+}
+.content p{
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 13px 35px 0 0;
+}
+.content .search_box{
+  float: left;
+  width: 444px; height: 60px;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  position: relative;
+}
+.content .search_box input{
+  width: 300px; height: 20px;
+  font-size: 20px;
+  position: absolute; top:20px; left:35px;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+.content .search_box input::placeholder{
+  color: #fff;
+}
+.content .search_box button{
+  width: 36px; height: 36px;
+  display: block;
+  background: url(../img/search.png) no-repeat;
+  font-size: 0; color: transparent;
+  border: none;
+  position: absolute; top:13px; right: 20px;
+  cursor: pointer;
+}
+
+.board{padding: 120px;}
+.board::after{
+  content:''; display: block; clear: both;
+}
+.board .board_box {
+  float: left;
+  width: 533px;
+  position: relative;
+}
+.board .board_box:last-child{
+  float: right;
+}
+.board .board_box h4{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.board .board_box > a{
+  position: absolute; top:15px; right: 0;
+  color: #7f7f7f;
+}
+.board .board_box ul {
+  border-top: 2px solid #929292;
+}
+.board .board_box ul li{
+  border-bottom: 1px solid #b3b3b3;
+}
+.board .board_box ul li a{
+  display: block;
+  padding: 20px 19px;
+}
+.board .board_box ul li a strong{
+  font-weight: normal;
+}
+.board .board_box ul li a span{
+  float: right;
+}
+.board .board_box:last-child h4::after{
+  content: ''; display: block;
+  width: 533px; height: 2px;
+  background-color: #929292;
+  margin-top: 20px;
+}
+.board .board_box img{
+  margin-top: 35px;
+  margin-left: 48px;
+}
+.board .board_box .board_button{
+  position: absolute; top:130px; right: 18px;
+}
+.board .board_box .board_button a{
+  display: block;
+  width: 240px; height: 60px;
+  border: 1px solid #7b7b7b;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  border-radius: 30px;
+}
+.board .board_box a{
+  opacity: 1;
+  transition: all 0.3s;
+}
+.board .board_box a:hover{
+  opacity: 0.6;
+}
+
+
+
+/* ------footer------ */
+footer{
+  padding: 80px 0;
+  background-color: #555;
+}
+footer .f_info{
+  background: url(../img/logo_white.png) no-repeat left 37px;
+  padding-left: 300px;
+}
+footer .f_info p{
+  color: #fff;
+}
+footer .f_info p:nth-child(1){
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+footer .f_info p:nth-child(2){
+  font-size: 14px;
+}
+footer .f_info p:nth-child(3){
+  font-size: 14px;
+}
+footer .f_info p:nth-child(4){
+  font-size: 11px;
+}
+footer .f_info p span {
+  margin-right: 20px;
+}
+
+.go_top{
+  display: block;
+  width:76px; height: 76px;
+  background: url(../img/icon_top.png) no-repeat center;
+  position: fixed; bottom: 30px; right: 10%;
+  font-size: 0; color:transparent;
+}
+
+
+/* 서브페이지 시작 */
+.sub_nav{
+  height: 20px;
+  background-color: #040034;
+  padding: 20px 0;
+}
+.sub_nav ul::after{
+  content: ''; display: block; clear: both;
+}
+.sub_nav ul li{
+  float: left;
+  position: relative;
+}
+.sub_nav ul li::after{
+  content:''; display: block; 
+  width: 1px; height: 21px;
+  background-color: #fff; 
+  position: absolute; top: 0; right: 0;
+}
+.sub_nav ul li a{
+  color: #fff;
+  padding: 0 105px 0 18px;
+  background: url(../img/down_white.png) no-repeat 168px center;
+}
+.sub_nav ul li:first-child a{
+  display: block;
+  width: 25px; height: 23px;
+  background:url(../img/icon_home.png) no-repeat center;
+  font-size: 0; color: transparent;
+  margin-right: 18px;
+  padding: 0;
+}
+
+.sub_content .inner{
+  padding:80px 0 110px;
+  text-align: center;
+}
+.sub_content h2{
+  font-size: 38px;
+  margin-bottom: 35px;
+}
+.sub_content p{
+  font-size: 19px;
+  line-height: 1.6;
+}
+.sub_content img{
+  margin-top: 72px;
+  margin-bottom: 75px;
+}
+.sub_content h4{
+  font-size: 25px;
+  color: #595959;
+  margin-bottom: 80px;
+}
+.sub_content .service_icon{
+  margin-top: 115px;
+}
+.sub_content .service_icon::after{
+  content: ''; display: block; clear: both;
+}
+.sub_content .service_icon li{
+  float: left;
+  width: calc((100% - 180px) / 4);
+  margin-right: 60px;
+  /* span말고 li에 사이즈주기 */
+}
+.sub_content .service_icon li:last-child{
+  margin-right: 0;
+}
+.sub_content .service_icon li span{
+  display: block;
+  height: 243px;
+  border-radius: 50%;
+  font-size: 0; color: transparent;
+  margin-bottom: 45px;
+}
+.sub_content .service_icon li:nth-child(1) span{
+  background: url(../img/sub_icon01.png) no-repeat center;
+  background-color: #3ecece;
+}
+.sub_content .service_icon li:nth-child(2) span{
+  background: url(../img/sub_icon02.png) no-repeat center;
+  background-color: #4379b7;
+}
+.sub_content .service_icon li:nth-child(3) span{
+  background: url(../img/sub_icon03.png) no-repeat center;
+  background-color: #6c6c6c;
+}
+.sub_content .service_icon li:nth-child(4) span{
+  background: url(../img/sub_icon04.png) no-repeat center;
+  background-color: #040034;
+}
+.sub_content .service_icon p{
+  font-weight: bold;
+}

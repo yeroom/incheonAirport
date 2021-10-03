@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: NotoSansCJKkr;
+  src: url(font/NotoSansCJKkr-Regular.otf);
+}
+
+*{margin: 0; padding: 0;}
+
+header, nav, footer, article, aside, figcaption, figure, section{
+  display: block;
+}
+
+body{
+  font-family: NotoSansCJKkr, sans-serif; 
+  line-height: 1.35;
+  font-size: 16px;
+  color: #333333;
+}
+ol,ul{
+  list-style: none;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  color: #333333;
+  text-decoration: none; 
+}
+img{
+  border: 0;
+  vertical-align: top;
+}
+input, select, button{
+  vertical-align: top;
+}
